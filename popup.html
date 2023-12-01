@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stylepopup.css">
+    <script>
+        function openPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="openPopup()">Ouvrir la Popup</button>
+    <div id="popup" class="popup">
+        <div class="header-profile">
+            <div>
+                <img src="./assets/images/casque.png" alt="Profile">
+            </div>
+            <div>
+                <h2>ASTRONAUTE</h2>
+                <h2 id="nom_prenom">NOM PRENOM</h2>
+                <div id="accroche">Accroche</div>
+                <div id="description">DEV Web</div>
+                <div id="expertise">Expertise</div>
+
+            </div>
+            <div>
+                <img src="./assets/images/signe.webp" alt="signe">
+            </div>
+
+            <!-- <button class="btnClose" onclick="affichePopup()">Fermer</button>-->
+
+        </div>
+        <div class="body-profile">
+            <img id="identifiant_linked" class="image_logo" src="./assets/Icon/linked.png" alt="Linked">
+            <img id="identifiant_github" class="image_logo" src="./assets/Icon/github.png" alt="Github">
+            <a id="link_CV" href="">CV</a>
+            <img id="link_downlaod" class="image_logo" src="./assets/Icon/downlaod.png" alt="Downlaod CV">
+            <a id="link_portofolio" href="">Portfolio</a>
+
+        </div>
+        <div class="footer-profile">
+            <div id="hobbies">Acccroche</div>
+
+
+            <button class="btnClose" onclick="affichePopup()">Fermer</button>
+
+        </div>
+
+
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, fugiat impedit incidunt molestias
+            perferendis ipsam dolore voluptas animi necessitatibus hic quibusdam tenetur quaerat quidem consequatur
+            exercitationem. Odit suscipit pariatur excepturi.</div>
+
+    </div>
+</body>
+
+</html>
