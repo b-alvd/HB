@@ -1,5 +1,3 @@
-
-
 const profil = [
   {
     id: 0,
@@ -260,17 +258,6 @@ function affiche(popup, id){
 
   let hobbies = document.getElementById('hobbies');  
   hobbies.innerText  = profil[id].hobbies;
-  
-   
-  /*
-  popup.style.transition = 'transform 0.1s ease-in-out';
-
-  if (popup.style.transform === 'translate(100%, -50%)') {
-    popup.style.transform = 'translate(0%, -70%)';
-  } else {
-    popup.style.transform = 'translate(100%, -50%)';
-  }
-*/
 }
 
 function affichePopup(id) { 
@@ -317,14 +304,6 @@ function affichePopup(id) {
 
   let id_popup = document.getElementById('id_popup');
   id_popup.style.display = 'block';
-   /*
-  popup.style.transition = 'transform 0.1s ease-in-out';
-  if (popup.style.transform === 'translate(100%, -50%)') {
-    popup.style.transform = 'translate(-50%, -50%)';
-  } else {
-    popup.style.transform = 'translate(100%, -50%)';
-  }
-  */
 }
 
 for (let i = 0; i < profil.length; i++) {  
@@ -341,26 +320,12 @@ for (let i = 0; i < profil.length; i++) {
   
 }
 console.log("Nom chargés")
-/*
-function affichePopup(id) {
-  // Afficher la popup correspondante
-  let popupId = 'popup_' + id;
-  let popup = document.getElementById(popupId);
-  popup.style.display = 'block';
-}
-function fermerPopup(id) {
-  // Fermer la popup correspondante
-  let popupId = 'popup_' + id;
-  let popup = document.getElementById(popupId);
-  popup.style.display = 'none';
-}*/
-/*
+
 function affichePopup() {
   let id_popup = document.getElementById('id_popup');
   id_popup.style.display = 'block';
 }
-*/
-function closeProfil() {
+function closePopup() {
   let id_popup = document.getElementById('id_popup');
   id_popup.style.display = 'none';
 }
