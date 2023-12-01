@@ -226,40 +226,6 @@ const profil = [
 
 ];
 
-function affiche(popup, id){
-  console.log(id); 
-  
-  let nom_prenom = document.getElementById('nom_prenom');  
-  nom_prenom.innerText  = profil[id].nom +' '+ profil[id].prenom;
-
-  let accroche = document.getElementById('accroche');  
-  accroche.innerText  = profil[id].accroche;
-
-  let description = document.getElementById('description');  
-  description.innerText  = profil[id].description;
-
-  let expertise = document.getElementById('expertise');  
-  expertise.innerText  = profil[id].expertise;
-
-  let identifiant_linked = document.getElementById('identifiant_linked');  
-  identifiant_linked.innerText  = profil[id].identifiant_linked;
-
-  let identifiant_github = document.getElementById('identifiant_github');  
-  identifiant_github.innerText  = profil[id].identifiant_github;
-
-  let link_CV = document.getElementById('link_CV');  
-  link_CV.innerText  = profil[id].link_CV;
-
-  let link_downlaod= document.getElementById('link_downlaod');  
-  link_downlaod.innerText  = profil[id].link_downlaod;
-
-  let link_portofolio = document.getElementById('link_portofolio');  
-  link_portofolio.innerText  = profil[id].link_portofolio;
-
-  let hobbies = document.getElementById('hobbies');  
-  hobbies.innerText  = profil[id].hobbies;
-}
-
 function affichePopup(id) { 
 
   let chemin ="./assets/personnages/" ;
