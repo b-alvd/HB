@@ -127,3 +127,28 @@ body {
     right: 35px;
     cursor: pointer;
 }
+
+
+.container button {
+    position: relative;
+    border: 1px solid white;
+    background-color: rgb(33, 33, 105);
+    color: white;
+    width: 2.5%;
+    font-size: 30px;
+    border-radius: 50px;
+}
+.container button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.prev-next-profile-btn {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8%;
+}
