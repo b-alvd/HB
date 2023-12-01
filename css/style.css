@@ -120,17 +120,28 @@ body {
     color: aliceblue;
   }
 */
-  #id_popup .header-profile{
+#id_popup .header-profile{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  #id_popup .footer-profile{
+}
+#id_popup .footer-profile{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  .btnClose{
-    height: 50px;
-    width: 100%;
-  }
+}
+
+.container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+
+.container button:hover {
+    background-color: #2980b9;
+}
